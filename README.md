@@ -1,70 +1,114 @@
-# Getting Started with Create React App
+# React Meals
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React Native app for ordering meals. It will cover the following topics:
 
-## Available Scripts
+# About ℹ️
+`React Meals` is a React Native app for ordering meals. While creating this project I learned about the following topics:
+`Event Listeners`, `Redux`, `React Navigation`,`Styled Components`, `Css Module`, `React Hooks (`useEffect`, `useReducer`, `useEffect`, `useContext`)`, `Forwarding Ref` and `Custom Hooks`.
+A user can select food and add in the cart and can be able to reedit the card. After creating the project, it was deployed to `GitHub Pages`.
 
-In the project directory, you can run:
+## Technologies Used 💻
 
-### `npm start`
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="50" height="50"/> </a> &emsp; <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="50" height="50"/> </a> &emsp; <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="50" height="50"/> </a> &emsp; <a href="https://www.w3schools.com/js/js_es6.asp" target="_blank" rel="noreferrer"> <img src="https://camo.githubusercontent.com/792f7fce1ff8bfac6d0524a21b69161cdc6080a3c4e39979f21d5f8489d6fdd3/68747470733a2f2f692e626c6f67732e65732f3534356366382f6573362d6c6f676f2f6f726967696e616c2e706e67" alt="ES6" width="50" height="50"/> </a> &emsp; <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="reactJS" width="50" height="50"/> </a> &emsp; <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/a/ad/Figma-1-logo.png" alt="figma" width="70" height="50"/> </a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Includes the following features/components ⚙️
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    - ReactJS
+    - create-react-app
+    - Event Listeners in React
+    - React State
+    - Conditional Rendering in React
+    - React Hooks(useEffect)
+    - github-pages
 
-### `npm test`
+<br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+To get started, clone the repo and install the dependencies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+git clone
+cd react-meals
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Then, start the app:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm start
+```
 
-### `npm run eject`
+## Screenshots
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Screenshot 1](./assets/screenshots/screenshot-1.png)
+![Screenshot 2](./assets/screenshots/screenshot-2.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Steps I followed to complete this project 🪜
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 1. Initialize Project 🎍
 
-## Learn More
+-   [x] Initialize the project using `npx create-react-app react_meals` which will create a
+    complete **React App** pre-configured and pre-installed with all the dependencies.
+-   [x] Import **`Work Sans`** font from google fonts and apply it to the **`App`** component.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 2. Organize Project 🗄️
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+-   [x] Create a `components` folder for **custom components** inside the `src` directory.
+-   [x] Four components are created inside the `components` folder:
+    -   `Header` - for the header of the app.
+    -   `Meals` - for the meals section.
+    -   `Cart` - for the cart section.
+    -   `MealItem` - for the meal item.
+-   [x] Create a `assets` folder for **images** inside the `src` directory.
+-   [ ] Create a `screens` folder for **screens** inside the `src` directory.
 
-### Code Splitting
+### 3. Clean Directory🧹
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+-   [x] Delete **unnecessary** files.
+-   [x] Delete a `tests` flies not needed for this project.
+-   [x] Delete **unnecessary** code.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 4. App Component 🧩
 
-### Making a Progressive Web App
+-   [x] Create an **`App`** component and basic JSX elements for it.
+-   [x] Add appropriate `className`s to elements in the **`App`** component.
+-   [x] Import **`App`** component inside `index.js`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+-   [x] Add **styles** to `body` inside `index.css`.
 
-### Advanced Configuration
+### 5. Header Component 🧩
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+-   [x] Create a **`Header`** component and basic JSX elements for it.
+-   [x] Add Css Module to **`Header`** component.
+-   [x] Add appropriate `className`s to elements in the **`Header`** component.
+-   [x] Import **`Header`** component inside `App.js`.
+-   [x] Add **styles** to **`Header`** component.
+-   [x] Create a **`HeaderCartButton`** component and basic JSX elements for it.
+-   [x] Add Css Module to **`HeaderCartButton`** component.
+-   [x] Create a **`NavBar`** component and basic JSX elements for it.
+-   [x] Add Css Module to **`NavBar`** component.
 
-### Deployment
+## 6. HeaderCartButton Component 🧩
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+-   [x] Create a **`HeaderCartButton`** component and basic JSX elements for it.
+-   [x] Add and write Css Module to **`HeaderCartButton`** component.
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 7. CartIcon Component 🧩
+
+-   [x] Create a **`CartIcon`** component inside the Cart folder and basic JSX elements for it.
+-   [x] Add svg image to **`CartIcon`** component.
+-   [X] Import **`CartIcon`** component inside `HeaderCartButton.js`.
+
+## 8. Meals Component 🧩
+
+
+
+
+
+
+
+
