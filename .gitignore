@@ -21,3 +21,15 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.idea/fileColors.xml
+.idea/vcs.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea
+.idea/*
+!.idea/codeStyles
+!.idea/codeStyles/*
+!.idea/codeStyles/codeStyleConfig.xml
+.idea/*
+!.idea/codeStyles
+!.idea/codeStyles/*
+!.idea/codeStyles/codeStyleConfig.xml
