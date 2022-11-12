@@ -24,7 +24,8 @@ yarn-error.log*
 .idea/fileColors.xml
 .idea/vcs.xml
 .idea/inspectionProfiles/Project_Default.xml
-.idea
+.idea/*
+!.idea/rcb-settings.xml
 .idea/*
 !.idea/codeStyles
 !.idea/codeStyles/*
@@ -33,3 +34,4 @@ yarn-error.log*
 !.idea/codeStyles
 !.idea/codeStyles/*
 !.idea/codeStyles/codeStyleConfig.xml
+
