@@ -47,73 +47,99 @@ npm start
 
 ## Steps I followed to complete this project 🪜
 
-### 1. Initialize Project 🎍
+### 1. Create a React App
 
--   [x] Initialize the project using `npx create-react-app react_meals` which will create a
-    complete **React App** pre-configured and pre-installed with all the dependencies.
--   [x] Import **`Work Sans`** font from google fonts and apply it to the **`App`** component.
+```bash
+npx create-react-app react-meals
+```
 
-### 2. Organize Project 🗄️
+### 2. Adding a **`Header`** Component
 
--   [x] Create a `components` folder for **custom components** inside the `src` directory.
--   [x] Four components are created inside the `components` folder:
-    -   `Header` - for the header of the app.
-    -   `Meals` - for the meals section.
-    -   `Cart` - for the cart section.
-    -   `MealItem` - for the meal item.
--   [x] Create a `assets` folder for **images** inside the `src` directory.
--   [ ] Create a `screens` folder for **screens** inside the `src` directory.
+### 3. Adding a **`Cart Button`** Component
 
-### 3. Clean Directory🧹
+### 4. Adding a **`Meals`** Component
 
--   [x] Delete **unnecessary** files.
--   [x] Delete a `tests` flies not needed for this project.
--   [x] Delete **unnecessary** code.
+### 5. Adding a **`Meal Item`** Component and displaying a list of meals
 
+### 6. Adding a **`Form`** Component
 
-### 4. App Component 🧩
+### 7. Fixing the **`Form`** Inputs IDs
 
--   [x] Create an **`App`** component and basic JSX elements for it.
--   [x] Add appropriate `className`s to elements in the **`App`** component.
--   [x] Import **`App`** component inside `index.js`.
+### 8. Working on the **´Shopping Cart´** Component
 
--   [x] Add **styles** to `body` inside `index.css`.
+### 9. Adding a **`Modal`** via React Portals
 
-### 5. Header Component 🧩
+### 10. Managing the Cart && Modal State
 
--   [x] Create a **`Header`** component and basic JSX elements for it.
--   [x] Add Css Module to **`Header`** component.
--   [x] Add appropriate `className`s to elements in the **`Header`** component.
--   [x] Import **`Header`** component inside `App.js`.
--   [x] Add **styles** to **`Header`** component.
--   [x] Create a **`HeaderCartButton`** component and basic JSX elements for it.
--   [x] Add Css Module to **`HeaderCartButton`** component.
--   [x] Create a **`NavBar`** component and basic JSX elements for it.
--   [x] Add Css Module to **`NavBar`** component.
+### 11. Adding a **`Cart Context`** (using React Context)
 
-## 6. HeaderCartButton Component 🧩
+### 12. Adding a **`Card Reducer`** (using React Reducer)
 
--   [x] Create a **`HeaderCartButton`** component and basic JSX elements for it.
--   [x] Add and write Css Module to **`HeaderCartButton`** component.
+### 13. Working with Refs & Forwarding Refs
+
+### 14. Outputting Cart Items
+
+### 15. Worked on More Complex Reducer Logic
+
+### 16. Making Cart Items Removable
+
+### 17. Adding a **`Custom Hook`** for the Cart CSS Animation
 
 
-## 7. CartIcon Component 🧩
+## Deployment 🚀
 
--   [x] Create a **`CartIcon`** component inside the Cart folder and basic JSX elements for it.
--   [x] Add svg image to **`CartIcon`** component.
--   [X] Import **`CartIcon`** component inside `HeaderCartButton.js`.
+This project was deployed to `GitHub Pages`. To deploy this project run
 
-## 8. Meals Component 🧩
+### 1. Install `gh-pages` as a dev dependency
 
--   [x] Create a **`Meals`** component and CSS Module for it.
--   [x] Inside the **`Meals`** component, create a **`MealsSummary`** component and CSS Module for it.
--   [x] Inside the **`Meals`** component, create a **`AvailableMeals`** component and CSS Module for it.
--   [x] Inside the **`AvailableMeals`** component populate with dummy data and map through it.
--   [x] Inside the **`MealsSummary`** component populate wit dummy data and map through it.
--   [x] Import **`MealsSummary`**  and **`AvailableMeals`** components inside `Meals.js`.
--   [x] Import **`Meals`** component inside `App.js`.
+```bash
+npm install gh-pages --save-dev
+```
 
-## 9. Adding Individual Meal Items & displaying them 🧩
+### 2. Add the following scripts in `package.json`
+
+```json
+"scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+```
+
+### 3. Add the following properties in `package.json`
+
+```json
+"homepage": "https://[your-username].github.io/[your-repo-name]",
+```
+
+### 4. Deploy the project
+
+```bash
+npm run deploy
+```
+
+## License 📝
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
+## Links to content that helped me with this project 📚
+
+1. Official React Documentation
+2. React Hooks
+3. React Portals
+4. React Context
+5. React Reducer
+6. React Refs
+7. React Forwarding Refs
+
+
+# Quotes that inspired me 📖
+
+> “The best way to predict the future is to invent it.” - Alan Kay
+
 
 
 
