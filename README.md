@@ -105,6 +105,16 @@ npm start
 
 ## 8. Meals Component 🧩
 
+-   [x] Create a **`Meals`** component and CSS Module for it.
+-   [x] Inside the **`Meals`** component, create a **`MealsSummary`** component and CSS Module for it.
+-   [x] Inside the **`Meals`** component, create a **`AvailableMeals`** component and CSS Module for it.
+-   [x] Inside the **`AvailableMeals`** component populate with dummy data and map through it.
+-   [x] Inside the **`MealsSummary`** component populate wit dummy data and map through it.
+-   [x] Import **`MealsSummary`**  and **`AvailableMeals`** components inside `Meals.js`.
+-   [x] Import **`Meals`** component inside `App.js`.
+
+## 9. Adding Individual Meal Items & displaying them 🧩
+
 
 
 
